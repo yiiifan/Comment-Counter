@@ -227,6 +227,7 @@ public class CMTCounter {
         return br;
 
     }
+
     //iterate to add all files within the folder into fileList
     private static void scanFolder(File file){
         File[] files = file.listFiles();
