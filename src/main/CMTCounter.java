@@ -31,7 +31,7 @@ public class CMTCounter {
 
         //get the folder path from console
         System.out.println("Enter the folder path: ");
-        //String folderpath = "C:\\Users\\sdall\\Desktop\\testcode";
+        //String folderpath = "testcode";
         Scanner scanner = new Scanner(System.in);
         String folderpath = scanner.nextLine();
 
@@ -191,9 +191,6 @@ public class CMTCounter {
     /* Two types of single comments:
     *   1. the line start with specific pattern,
     *   2. the coding line is combined with a comment line at the end.
-    *   In the second situation, we suppose that there is no pattern in the range of quote,
-    *   for example: int String = "//my test";
-    *   it will be still detected as a single comment
     *   */
     private  static void countSingle(String line, BufferedReader br, String start) throws IOException{
         if(line.startsWith(start)){

@@ -1,4 +1,4 @@
-// HelloDate.java.  
+package testcode;// HelloDate.java.
 import java.util.*;
 
 /** The second example program, and the first example of a class comment.
@@ -22,7 +22,7 @@ public class HelloDate {
 	System.out.println(new Date());//print the date
 
 	//TODO: SDFAKFLKSDJFL
-    int String = "//my test";
+    // int String = "//my test";
     int String = "//my test"; //this is true "//"" comment 
 
     }
