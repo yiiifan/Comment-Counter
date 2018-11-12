@@ -12,6 +12,7 @@ and also a comment line.
 6) Please note, that the file that is being checked in could be any valid program file. Files
 checked in without an extension can be ignored. You can also ignore file names that
 start with a ‘.’.
+![image](structure.png)
 
 ## Usage
 - The project is developed by IntelliJ in folder CMTCounter.
